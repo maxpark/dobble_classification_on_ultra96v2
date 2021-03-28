@@ -21,7 +21,8 @@ import gc
 
 import dobble_utils as db
 
-"""
+
+
 #-- about GPU memory --
 import tensorflow as tf 
 gpus = tf.config.experimental.list_physical_devices('GPU')
@@ -35,7 +36,7 @@ if gpus:
     except RuntimeError as e:
         # Memory growth must be set before GPUs have been initialized
         print(e)
-"""
+
 
 #
 # Parameters
